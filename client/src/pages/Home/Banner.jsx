@@ -6,17 +6,18 @@ const Banner = () => {
         <div className="md:w-1/2">
           <img src="/images/home/banner.png" alt="Banner" />
           <div className="flex flex-col md:flex-row items-center justify-around mt-16 gap-4">
-            <ProductItem
-              image="/images/hom/gamepad.png"
-              name="game pad"
-              rating="4"
-              price="499"
+          <ProductItem
+              image="/images/home/headphone.png"
+              name="Headphone"
+              rating="1"
+              price="1199"
             />
+
             <ProductItem
-              image="/images/hom/headphone.png"
-              name="headphone"
-              rating="5"
-              price="1000"
+              image="/images/home/gamepad.png"
+              name="Ganepad"
+              rating="3"
+              price="499"
             />
           </div>
         </div>
