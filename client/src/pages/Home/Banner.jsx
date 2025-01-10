@@ -5,8 +5,8 @@ const Banner = () => {
       <div className="py-24 flex flex-col md:flex-row-reverse justify-between item-center">
         <div className="md:w-1/2">
           <img src="/images/home/banner.png" alt="Banner" />
-          <div className="flex flex-col md:flex-row items-center justify-around mt-16 gap-4">
-          <ProductItem
+          <div className="flex flex-col md:flex-row items-center justify-around -mt-16 gap-4">
+            <ProductItem
               image="/images/home/headphone.png"
               name="Headphone"
               rating="1"
@@ -15,7 +15,7 @@ const Banner = () => {
 
             <ProductItem
               image="/images/home/gamepad.png"
-              name="Ganepad"
+              name="Gamepad"
               rating="3"
               price="499"
             />
@@ -27,7 +27,10 @@ const Banner = () => {
             <span className="text-red">Software Engineering Swag</span> for
             Everything Coding Enthusiast!
           </h2>
-          <p className="texttext=xl text-[#4A4A4A]">MISSION</p>
+          <p className="text=xl text-[#4A4A4A]">
+            Our Mission: To merge fashion with functionality in the world of
+            software Engineering
+          </p>
           <a
             className="btn bg-red px-8 py-3 font-semibold text-white rounded-full"
             href="/Shop"

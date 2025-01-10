@@ -2,7 +2,7 @@ import Banner from "./Banner";
 import Category from "./Category";
 import Product from "./Product";
 import Service from "./Service";
-import Testimonial from "./Service";
+import Testimonials from "./Testimonial";
 
 const Home = () => {
   return (
@@ -11,7 +11,7 @@ const Home = () => {
       <Category />
       <Product />
       <Service />
-      <Testimonial />
+      <Testimonials />
     </div>
   );
 };
