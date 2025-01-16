@@ -2,26 +2,26 @@ const Navbar = () => {
   const navItem = (
     <>
       <li>
-        <a href="Home">Home</a>
+        <a href="/">Home</a>
       </li>
       <li tabIndex={0}>
         <details>
           <summary>Catagory</summary>
           <ul>
             <li>
-              <a href="All">All</a>
+              <a href="/shop">All</a>
             </li>
             <li>
-              <a href="Clothing">Clothing</a>
+              <a href="/shop?Clothing">Clothing</a>
             </li>
             <li>
-              <a href="Accessories">Accessories</a>
+              <a href="/shop?Accessories">Accessories</a>
             </li>
             <li>
-              <a href="Gadgets">Gadgets</a>
+              <a href="/shop?Gadgets">Gadgets</a>
             </li>
             <li>
-              <a href="Swag">Swag</a>
+              <a href="/shop?Swag">Swag</a>
             </li>
           </ul>
         </details>
