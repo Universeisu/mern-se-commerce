@@ -1,10 +1,10 @@
 import api from "./api";
 
-const API_URL = ""; // ใส่ URL ของเซิร์ฟเวอร์ที่ให้บริการ
+const API_URL = "product"; // ใส่ URL ของเซิร์ฟเวอร์ที่ให้บริการ
 
 const getAllProducts = async () => {
   try {
-    const response = await api.get(`${API_URL}/product.json`);
+    const response = await api.get(`${API_URL}`);
     return response;
   } catch (error) {
     console.error("Error fetching products:", error.message);
